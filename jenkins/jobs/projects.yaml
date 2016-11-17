@@ -5234,7 +5234,7 @@
       - '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}{special}{job-suffix}':
           datastore: mysql
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: ''
           job-suffix: ''
           branch-override: default
@@ -5243,7 +5243,7 @@
       - '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}{special}{job-suffix}':
           datastore: mysql
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: ''
           job-suffix: ''
           branch-designator: ''
@@ -5253,7 +5253,7 @@
       - '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}{special}{job-suffix}':
           datastore: postgres
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: ''
           job-suffix: ''
           branch-override: default
@@ -5262,7 +5262,7 @@
       - '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}{special}{job-suffix}':
           datastore: mysql
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: ''
           job-suffix: ''
           branch-override: default
@@ -5271,7 +5271,7 @@
       - '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}{special}{job-suffix}':
           datastore: mysql
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: ''
           job-suffix: ''
           branch-override: default
@@ -5280,7 +5280,7 @@
       - '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}{special}{job-suffix}':
           datastore: mysql
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: '-identity-v3-only'
           job-suffix: '-nv'
           branch-override: default
@@ -5288,29 +5288,29 @@
           lbaasversion: lbaasv1
       - '{pipeline}-tempest-dsvm-heat{special}{job-suffix}':
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: ''
           job-suffix: ''
           branch-override: default
       - '{pipeline}-tempest-dsvm-heat{special}{job-suffix}':
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           special: '-identity-v3-only'
           job-suffix: '-nv'
           branch-override: default
       - '{pipeline}-tempest-dsvm-heat-apache{job-suffix}':
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           job-suffix: ''
           branch-override: default
       - '{pipeline}-grenade-dsvm-heat{job-suffix}':
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           job-suffix: ''
           branch-override: default
       - '{pipeline}-grenade-dsvm-heat{job-suffix}':
           pipeline: gate
-          node: ubuntu-trusty
+          node: ubuntu-xenial
           job-suffix: '-nv'
           branch-override: default
       - gate-rally-dsvm-fakevirt-{name}
