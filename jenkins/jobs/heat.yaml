@@ -32,8 +32,7 @@
       - console-log
 
 - job-template:
-    name: '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}{special}{job-suffix}'
-    node: '{node}'
+    name: '{pipeline}-heat-dsvm-functional-{engine}-{datastore}-{lbaasversion}-{node}{special}{job-suffix}'
 
     wrappers:
       - build-timeout:
